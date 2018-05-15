@@ -26,7 +26,7 @@ npm start
 
 # 2. Launch API server
 ```bash
-npm start
+npm run serve
 ```
 
 API endpoint to see results:
