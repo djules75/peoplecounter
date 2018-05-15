@@ -24,6 +24,7 @@ Edit `config.json` with appropriate values.
 - `darknetPath`: absolute path to the darknet executable
 - `tempImagesFolder`: absolute path where images retrieved from cameras are stored
 - `dbFile`: absolute path to the .json database file where people counts are stored
+- `cameras`: array of camera entries. `id` and `url` of the camera still image are required
 
 # 1. Launch image processor
 
