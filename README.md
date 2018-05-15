@@ -13,6 +13,7 @@ npm install
 # Configure project
 
 Edit `config.json` with appropriate values.
+
 - `darknetPath`: absolute path to the darknet executable
 - `tempImagesFolder`: absolute path where images retrieved from cameras are stored
 - `dbFile`: absolute path to the .json database file where people counts are stored
