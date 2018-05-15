@@ -1,0 +1,27 @@
+{
+  "darknetPath": "/Users/Julien/dev/darknet",
+  "tempImagesFolder": "/Users/Julien/temp",
+  "dbFile": "/Users/Julien/temp/cameraDB.json",
+  "cameras": [
+    {
+      "id": "cam1",
+      "name": "camera1",
+      "url": "http://217.152.196.254/axis-cgi/jpg/image.cgi?camera=1&resolution=704x576&1060884926140"
+    },
+    {
+      "id": "cam2",
+      "name": "camera2",
+      "url": "http://212.170.22.153:8080/jpg/image.jpg"
+    },
+    {
+      "id": "cam3",
+      "name": "camera3",
+      "url": "http://webcam1.comune.ra.it/record/current.jpg"
+    },
+    {
+      "id": "cam4",
+      "name": "camera4",
+      "url": "http://camera.buffalotrace.com/jpg/image.jpg"
+    }
+  ]
+}

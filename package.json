@@ -1,0 +1,26 @@
+{
+  "name": "runner",
+  "version": "1.0.0",
+  "description": "Task runner for people counter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "babel-watch src/processor/index.js",
+    "serve": "babel-watch src/server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "express": "^4.16.3",
+    "fs-extra": "^6.0.1",
+    "image-downloader": "^3.3.0"
+  }
+}
