@@ -4,6 +4,13 @@
 https://pjreddie.com/darknet/yolo/
 ```
 
+Don't forget to download and install the weights for the model
+```
+https://pjreddie.com/media/files/yolov3.weights
+```
+
+And save them in at the root of the darknet folder
+
 # Install project dependencies
 
 ```bash
